@@ -1,0 +1,71 @@
+<!-- Name: Bonor Ayambem
+Email: bma223@lehigh.edu
+Course: CSE-264-010
+Final Project -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Wordle</title>
+</head>
+
+<body>
+    <div id="title">
+        <h1>WORDLE</h1>
+    </div>
+    <div id="game">
+        <div id="left_container">
+            <div id="guesses" style="display: flex; flex-direction: column;">
+
+            </div>
+            <div id="guess_box">
+                <label for="guess">Enter a Five-Letter Word: </label>
+                <input type="text" id="guess">
+                <button id="guessBtn">Submit</button>
+            </div>
+            <div id="messages">
+                <p id="guesses_left"> Number of Guesses Left: 6</p>
+                <div id="error_message"> </div>
+            </div>
+            <div id="letters_table">
+
+            </div>
+            <div class="footer">
+                <footer>
+                    <p class="footer"> Copyright &copy 2022 Bonor Ayambem </p>
+                </footer>
+            </div>
+        </div>
+        <div id="right_container">
+            <fieldset>
+                <legend>Statistics</legend>
+                <ul>
+                    <li id="current_streak">Current Streak: 0</li>
+                    <li id="num_wins">Wins: 0</li>
+                    <li id="num_lose">Losses: 0</li>
+                    <li>Moves to Win</li>
+                    <ul>
+                        <li id="num_ones">1: 0</li>
+                        <li id="num_twos">2: 0</li>
+                        <li id="num_threes">3: 0</li>
+                        <li id="num_fours">4: 0</li>
+                        <li id="num_fives">5: 0</li>
+                        <li id="num_sixes">6: 0</li>
+                    </ul>
+                </ul>
+              </fieldset>
+              <div id="buttons">
+                <button id="resetBtn">Reset Stats</button>
+                <button id="newGameBtn">New Game</button>
+              </div>
+              
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

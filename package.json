@@ -1,0 +1,22 @@
+{
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "wordle client",
+  "main": "app.js",
+  "scripts": {
+    "test": "start: node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSE-264/final-project-bonor-ayambem.git"
+  },
+  "author": "Bonor Ayambem bma223@lehigh.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CSE-264/final-project-bonor-ayambem/issues"
+  },
+  "homepage": "https://github.com/CSE-264/final-project-bonor-ayambem#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

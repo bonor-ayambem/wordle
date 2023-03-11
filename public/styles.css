@@ -1,0 +1,61 @@
+p{
+    color: white;
+}
+p.correct {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(207, 40, 132)
+}
+p.almost {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orange;
+}
+p.wrong {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray
+}
+p.footer {
+    color: pink
+}
+
+body {
+    background-color: black;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: rgb(207, 40, 132);
+    font-size: 60px;
+}
+h3.win {
+    color: rgb(207, 40, 132);
+}
+
+h3.lose {
+    color: red
+}
+
+li {color: white}
+legend {color: white}
+label {color: white;}
+
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#left_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#right_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
