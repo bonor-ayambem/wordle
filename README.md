@@ -26,8 +26,9 @@ Player has six guesses to provide a pre-determined five-letter word in the text 
 In each guess, the letters are colored to provide a hint as to the player's closeness
 to getting the word
 
-Pink - Letter is in the right spot
-Orange - Letter is in the word but is not in the right spot
+* Pink - Letter is in the right spot
+
+* Orange - Letter is in the word but is not in the right spot
 
 An example run is provided below
 
